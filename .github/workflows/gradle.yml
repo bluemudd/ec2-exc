@@ -39,7 +39,7 @@ jobs:
         uses: docker/login-action@v2
         with:
           username: ${{ secrets.DOCKER_ID }}
-          password: ${{ secrets.DOCKER_PASSWWORD }}
+          password: ${{ secrets.DOCKER_PASSWORD }}
 
 
       - name: Set up Docker Buildx

@@ -10,7 +10,7 @@ on:
 # 실제 실행될 내용들을 정의합니다.
 jobs:
   build:
-    runs-on: ubuntu-latest # ubuntu 최신 버전에서 script를 실행.
+    runs-on: ubuntu-latest # ubuntu 최신 버전에서 script를 실행
 
     steps:
       - name: checkout
